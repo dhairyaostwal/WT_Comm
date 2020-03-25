@@ -1,0 +1,53 @@
+.heading{
+	background-color: #004D40;
+	color: #A7FFEB;
+	font-weight: bold;
+	font-family: quantico;
+	text-align: center;
+	padding: 40px 40px;
+	font-size: 58px;
+}
+
+.home_txt{
+	color: #000000;
+	font-family: quantico;
+	font-size: 26px;
+	text-align: center;
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-top: 30px;
+}
+
+footer{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: auto;
+	font-family: quantico;
+}
+
+.btn{
+	border:none;
+	background-color: #004D40;
+	padding: 18px 30px;
+  	font-size: 16px;
+  	font-family: quantico;
+  	cursor: pointer;
+  	display: inline-block;
+  	color:#A7FFEB;
+  	margin-top: 100px;
+  	margin-left: 640px;
+  	margin-right: 400px;
+  	.btn:hover {background: #eee;}
+}
+
+body{
+	background-color: #26A69A;
+}
+
+@font-face {
+	font-family: 'quantico';
+	src:url(fonts/Quantico.ttf);font-style: normal;
+	font-weight: 100;
+}
+
