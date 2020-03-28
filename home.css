@@ -30,15 +30,18 @@ footer{
 	border:none;
 	background-color: #004D40;
 	padding: 18px 30px;
-  	font-size: 16px;
-  	font-family: quantico;
-  	cursor: pointer;
-  	display: inline-block;
-  	color:#A7FFEB;
-  	margin-top: 100px;
-  	margin-left: 640px;
-  	margin-right: 400px;
-  	.btn:hover {background: #eee;}
+	font-size: 16px;
+	font-family: quantico;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 640px;
+	margin-right: 400px;
+}
+.btn:hover {background: #eee;}
+.btn a {
+	color:#A7FFEB;
+	text-decoration: none;;
 }
 
 body{
@@ -50,4 +53,3 @@ body{
 	src:url(fonts/Quantico.ttf);font-style: normal;
 	font-weight: 100;
 }
-
